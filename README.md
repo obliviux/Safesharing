@@ -1,14 +1,14 @@
 # Safesharing
 
 The Safesharing framework allows App Developers to integrate the [Safecard app](http://safecardapp.com) in a simple and quick way.
-<br /><br /><br />
+<br /><br />
 # What is this?
 ---
 This is a sample app that shows how you can use the Safesharing framework to save and load  user's credentials with the [Safecard app](http://safecardapp.com). Here is a demonstrative video:
 
 http://youtu.be/Y6ScYfzBaa8
 
-<br /><br /><br />
+<br /><br />
 # Why I should use it?
 ---
 Because you can add a Password card, with the user's credentials, from your app directly into [Safecard](http://safecardapp.com). You can also access these data anytime.
@@ -25,7 +25,7 @@ The user simply tap on your **Login with Safecard** button, and, if the credenti
 * If the user has deleted your app, he has always a backup of his credentials into [Safecard](http://safecardapp.com). Your website is saved too.
 
 
-<br /><br /><br />
+<br /><br />
 # Installation in your app
 ---
 It's really simple and requires 5 minutes! Follow these steps.
@@ -61,7 +61,7 @@ Choose an URL Scheme that identifies your app unequivocally.
 
 #### Set your PrivateKey
 Open ```safesharing.h``` and modify the ```kPrivateKey``` default value with a **strong password**. This will ensure that only your app can read and decrypt the data.
-<br /><br /><br />
+<br /><br />
 # How to use
 ---
 In this test project you will find a complete app with all the information you need. The available methods are:
@@ -117,7 +117,7 @@ After your app has been re-opened from [Safecard](http://safecardapp.com), you w
 ```
 This array contains the user's credentials, which you can use to login automatically.
 
-<br /><br /><br />
+<br /><br />
 # About Security
 ---
 The Safesharing framework, as the name suggests, is very safe. It **encrypts** the user's credentials before, during and after the communications between apps. When the communication is over, the data are deleted. The encryption system is the same used by Safecard: **AES 256-bit**, one of the safest security systems in the world.
@@ -126,7 +126,7 @@ Furthermore, only your app can access the saved credentials, and, on the other h
 
 To ensure the best data security remember to create a **strong PrivateKey** and **do not share this key** with anyone.
 
-<br /><br /><br />
+<br /><br />
 # License
 ---
 
