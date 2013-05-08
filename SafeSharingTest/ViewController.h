@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
 
+    IBOutlet UITextField *UsernameField;
+    IBOutlet UITextField *PasswordField;
+}
+
+-(IBAction)LoginAction:(id)sender;
+-(IBAction)GetPasswordCard:(id)sender;
 @end

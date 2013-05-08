@@ -7,17 +7,23 @@
 //
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    UINavigationController *navCon = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    
+    [navCon.navigationBar setTintColor:[UIColor redColor]];
+
+    self.window.rootViewController = navCon;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -47,6 +53,24 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    if (!url) {
+        return NO; }
+    
+    NSString *URLString = [url absoluteString];
+    if ([URLString rangeOfString:@"safeshare"].location == NSNotFound) {
+    } else {
+   
+        //Receive username and/or password from Safecard
+        NSArray *credentials = [safesharing ReceivedSafesharingDataWithKey:kPrivateKey];
+        [[NSNotificationCenter defaultCenter] postNotificationName: @"Safecard" object: credentials];
+    
+    }
+    
+    return YES;
 }
 
 @end
