@@ -120,7 +120,7 @@ This array contains the user's credentials, which you can use to login automatic
 <br /><br />
 # About Security
 ---
-The Safesharing framework, as the name suggests, is very safe. **Any communication between apps happens only locally, there is no communication to external servers, this ensures greater safety and efficiency!** However it **encrypts** the user's credentials before, during and after the communications between apps. When the communication is over, the data are deleted. The encryption system is the same used by Safecard: **AES 256-bit**, one of the safest security systems in the world.
+The Safesharing framework, as the name suggests, is very safe. **Any communication between apps happens only locally, there aren't communications to external servers, this ensures greater safety and efficiency!** However it **encrypts** the user's credentials before, during and after the communications between apps. When the communication is over, the data are deleted. The encryption system is the same used by Safecard: **AES 256-bit**, one of the safest security systems in the world.
 
 Furthermore, only your app can access the saved credentials, and, on the other hand, it can not access the credentials stored by other apps.
 
