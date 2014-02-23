@@ -6,7 +6,7 @@ The Safesharing framework allows App Developers to integrate the [Safecard app](
 ---
 This is a sample app that shows how you can use the Safesharing framework to save and load  user's credentials with the [Safecard app](http://safecardapp.com). Here is a demonstrative video:
 
-http://youtu.be/Y6ScYfzBaa8
+<a href="http://www.youtube.com/watch?v=Yg9xRqVstFg" rel="youtube">![Youtube Video](http://cl.ly/image/1J2S0n2R3Z3k/Schermata%202014-02-23%20alle%2010.36.33.png)</a>
 
 <br /><br />
 # Why I should use it?
