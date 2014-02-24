@@ -30,6 +30,8 @@ The user simply tap on your **Login with Safecard** button, and, if the credenti
 ---
 It's really simple and requires 5 minutes! Follow these steps.
 
+** For proper testing, it is recommended to build the binary on a device with the free [Safecard](http://safecardapp.com) app installed! **
+
 #### Add the necessary files
 Drag ```Safesharing.framework``` and ```safesharing.h``` into your app. Add to target.
 
