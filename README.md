@@ -30,8 +30,6 @@ The user simply tap on your **Login with Safecard** button, and, if the credenti
 ---
 It's really simple and requires 5 minutes! Follow these steps.
 
-**For proper testing, it is recommended to build the binary on a device with the free [Safecard](http://safecardapp.com) app installed!**
-
 #### Add the necessary files
 Drag ```Safesharing.framework``` and ```safesharing.h``` into your app. Add to target.
 
@@ -66,6 +64,8 @@ Open ```safesharing.h``` and modify the ```kPrivateKey``` default value with a *
 <br /><br />
 # How to use
 ---
+**For proper testing, it is recommended to build the binary on a device with the free [Safecard](http://safecardapp.com) app installed!**
+
 In this test project you will find a complete app with all the information you need. The available methods are:
 
 #### Check if Safecard is installed
