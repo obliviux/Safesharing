@@ -19,7 +19,7 @@ The user simply tap on your **Login with Safecard** button, and, if the credenti
 
 ####5 reasons to use Safesharing
 * It's Quick, Safe and Free.
-* The user must remember only one password for all of its app, although he used different credentials.
+* The user must remember only one password for all of its apps, although he used different credentials.
 * The login is done by inserting a 5-digit password, which is faster than enter username and/or an alphanumeric password.
 * The user can have an organized list of all his credentials within [Safecard](http://safecardapp.com).
 * If the user has deleted your app, he has always a backup of his credentials into [Safecard](http://safecardapp.com). Your website is saved too.
